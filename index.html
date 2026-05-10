@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Minha Página</title>
+
+    <!-- CSS interno -->
+    <style>
+
+        h1 {
+            color: blue;
+        }
+
+        .texto {
+            color: red;
+        }
+
+    </style>
+
+    <!-- CSS externo -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Título principal -->
+    <h1>Bem-vindo à minha página!</h1>
+
+    <p>
+        Esta é uma página de exemplo para demonstrar
+        a estrutura básica de um documento HTML.
+    </p>
+
+    <!-- Exemplos de títulos -->
+    <h1>Título Principal</h1>
+    <h2>Subtítulo</h2>
+    <h3>Outro título</h3>
+
+    <!-- Classe CSS -->
+    <p class="texto">Olá</p>
+
+    <!-- ID -->
+    <h1 id="titulo">Título</h1>
+
+    <!-- Parágrafo -->
+    <p>Isso é um parágrafo.</p>
+
+    <!-- Div -->
+    <div>
+        <p>Conteúdo dentro da div</p>
+    </div>
+
+    <!-- Link -->
+    <a href="https://google.com">
+        Ir para o Google
+    </a>
+
+    <br><br>
+
+    <!-- Imagem -->
+    <img src="imagens/imagem.jpg" alt="Gatinho">
+
+    <br><br>
+
+    <!-- Botão -->
+    <button onclick="clicou()">
+        Clique
+    </button>
+
+    <!-- JavaScript -->
+    <script>
+
+        function clicou() {
+            alert("Botão clicado!");
+        }
+
+    </script>
+
+    <!-- Lista Ordenada -->
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+    </ol>
+
+    <!-- Lista Não Ordenada -->
+    <ul>
+        <li>Maçã</li>
+        <li>Banana</li>
+    </ul>
+
+    <!-- Formulário -->
+    <form>
+
+        <label>Nome:</label>
+        <input type="text">
+
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email">
+
+        <br><br>
+
+        <button type="submit">
+            Enviar
+        </button>
+
+    </form>
+
+    <br>
+
+    <!-- Manipulação do DOM -->
+    <p id="texto">
+        Texto antigo
+    </p>
+
+    <script>
+
+        document.getElementById("texto").innerHTML =
+            "Texto novo";
+
+    </script>
+
+    <!--
+        Boas práticas HTML:
+
+        - Usar indentação
+        - Utilizar tags semânticas
+        - Sempre usar alt em imagens
+        - Organizar o código
+        - Nomear classes corretamente
+    -->
+
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+/* Seletores Básicos */
+
+/* Seleciona todos os parágrafos */
+p {
+    color: blue;
+}
+
+/* Seleciona elementos com classe */
+.texto {
+    color: red;
+}
+
+/* Seleciona elemento com ID */
+#titulo {
+    font-size: 30px;
+}
+
+
+/* Propriedades Essenciais */
+
+/* Cor do texto e fundo */
+.exemplo-cor {
+    color: red;
+    background-color: black;
+}
+
+/* Fonte */
+.exemplo-fonte {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+/* Espaçamento */
+.container {
+    margin: 20px;   /* Espaço externo */
+    padding: 10px;  /* Espaço interno */
+}
+
+
+/* Display */
+
+.display-block {
+    display: block;
+}
+
+.display-inline {
+    display: inline;
+}
+
+.display-flex {
+    display: flex;
+}
+
+
+/* Flexbox */
+
+.flex-container {
+
+    display: flex;
+
+    /* Alinha horizontalmente */
+    justify-content: center;
+
+    /* Alinha verticalmente */
+    align-items: center;
+}
+
+
+/* Grid Layout */
+
+.grid-container {
+
+    display: grid;
+
+    /* Cria 2 colunas */
+    grid-template-columns: 1fr 1fr;
+
+    /* Espaço entre elementos */
+    gap: 10px;
+}
+
+
+/* Boas Práticas CSS */
+
+/*
+- Evitar repetir código
+- Organizar seletores
+- Usar nomes claros nas classes
+- Preferir CSS externo
+- Comentar partes importantes
+*/
